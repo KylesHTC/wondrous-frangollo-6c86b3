@@ -1,0 +1,7 @@
+OCC V120 / MASTER 43.58
+- Replaced bottom-navigation 'Impact' with 'My OCC' in Partners & Funders Home.
+- Replaced bottom-navigation 'Impact' with 'My OCC' on Company Offers screen.
+- Replaced bottom-navigation 'Impact' with 'My OCC' on Our Funders screen.
+- My OCC buttons open the existing OCC profile/My OCC route.
+- Impact content remains accessible through existing in-page impact links.
+- No other layout/content changes.

@@ -1,0 +1,5 @@
+OCC V114 / Master 43.52
+- Removed My Community header back arrow.
+- Added approved image-backed artwork to Funding, Vote and Projects cards.
+- Preserved real OCC forest header/logo, real funding totals, project counts, routes and Have Your Say form.
+- Kept Community bottom nav highlighted.

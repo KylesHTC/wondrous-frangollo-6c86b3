@@ -1,0 +1,5 @@
+OCC V106 / MASTER 43.44 — LOGIN FILE RESTORED
+
+Cause confirmed: V105 index.html still referenced login-hotfix.js, but the file was accidentally omitted from the V105 deployment package. This caused the Sign In button to appear but not execute the fallback login handler.
+
+Fix: restored login-hotfix.js from the working V104 build. No approved V105 My OCC/header/social-media changes were removed.

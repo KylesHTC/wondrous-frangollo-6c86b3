@@ -1,0 +1,10 @@
+OCC MASTER 43.46 / V108 — RESIDENT MESSAGES POLISH
+
+Changes:
+- Approved Residents & Customers Messages layout implemented.
+- Four clean filters: All, Unread, Jobs, Quotes.
+- Search and Filter controls reduced for better mobile spacing.
+- Conversation cards widened and previews limited to two lines.
+- Added distinct visual business marks for plumbing, landscaping, building and decorating conversations.
+- Bottom resident navigation preserved with Messages active.
+- Existing V107 pathway/login/navigation files preserved.

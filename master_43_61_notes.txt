@@ -1,0 +1,9 @@
+OCC V123 / MASTER 43.61
+- Added My Partnership to Partners & Funders My OCC.
+- My Partnership shows community partner status, free membership, contribution status and quick partner tools.
+- Added working prototype forms for Post an Offer, Post a Job, Offer a Service and Offer Materials.
+- Partner posts are saved locally in the browser and shown under My Partnership > My Posts.
+- Added Social Media to Partners & Funders My OCC, matching the OCC forest/dark-green/lime theme.
+- Social Media includes Facebook, TikTok, Instagram, YouTube, X and LinkedIn with Open/Install actions.
+- Existing Company Offers, Our Funders, Messages, Impact & Transparency, Account Settings, Change Pathway, Help and Logout remain.
+- My OCC remains the last bottom-navigation item.

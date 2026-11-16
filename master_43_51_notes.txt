@@ -1,0 +1,7 @@
+OCC MASTER 43.51 / V113
+- My Community page updated to the approved locked OCC forest theme.
+- Uses the existing real OCC community-header-v4332.png asset.
+- Header now carries back, notification and KR controls over the forest banner.
+- Stronger My Community typography and wider mobile card layout.
+- Existing funding totals, project counts, routes and Have Your Say form preserved.
+- Community remains highlighted in the bottom navigation.

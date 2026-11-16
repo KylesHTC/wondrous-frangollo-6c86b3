@@ -1,0 +1,7 @@
+OCC V115 / Master 43.53
+- Added Company Offers & Support to the Partners & Funders pathway.
+- Replaced the main-page partner/funder/story listings with a Company Offers & Support preview.
+- Removed Stories from the main Partners & Funders bottom navigation.
+- Added image-backed cards for Offers & Discounts, Jobs & Opportunities, Community Support, and Materials & Help.
+- Preserved the existing OCC dark-green / lime theme, forest banner, OCC logo, Funders, Impact and Get Involved routes.
+- Company Offers impact counters start at 0 until real partner activity is added.

@@ -1,0 +1,8 @@
+OCC V121 / MASTER 43.59
+- Redesigned My OCC to match the dark green / lime OCC Partners & Funders theme.
+- Added a dedicated OCC Pathways screen with four clear pathways.
+- Change OCC pathway now opens the new pathway screen.
+- Partners & Funders navigation order is now: Home, Company Offers, Our Funders, Get Involved, My OCC.
+- My OCC is the final item on the funder navigation bar.
+- Company Offers and Our Funders screenshot navigation strips updated to the same order.
+- Existing data and role switching preserved.

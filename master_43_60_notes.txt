@@ -1,0 +1,6 @@
+OCC V122 / MASTER 43.60
+- Replaced the Partners & Funders My OCC page with the same approved menu layout used by Looking for Work and Residents/Find a Tradesman.
+- Uses the same OCC forest header image, My OCC Menu title, circular KR avatar, rounded menu rows, lime accents and row icons.
+- My OCC remains the final bottom-navigation item.
+- Change pathway now opens the existing OCC role/pathway chooser.
+- Removed the large profile/current-pathway cards from the funder My OCC page.

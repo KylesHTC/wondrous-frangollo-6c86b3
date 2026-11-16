@@ -1,0 +1,9 @@
+{
+  "name": "One Community Cleanup V108",
+  "short_name": "OCC V108",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f7f5",
+  "theme_color": "#123d2d",
+  "description": "OCC V108 Resident Messages polish and navigation prototype"
+}

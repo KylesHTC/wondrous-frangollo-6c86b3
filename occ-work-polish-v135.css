@@ -1,0 +1,66 @@
+/* V135: Looking for Work — consistent crisp forest branding for five real app screens only.
+   No changed Partners pages; no flattened screenshot headers. */
+.work-screen[data-screen="work-home"] .home100-forest-head,
+.work-screen[data-screen="work-jobs"] .jobs99-forest-head,
+.work-screen[data-screen="work-community"] .community32-forest-head,
+.work-screen[data-screen="work-messages"] .workmsg29-forest-head,
+.work-screen[data-screen="work-menu"] .work-myocc-forest-head {display:none!important;}
+.work-screen[data-screen="work-home"] .home100-tools,
+.work-screen[data-screen="work-jobs"] .jobs99-tools,
+.work-screen[data-screen="work-community"] .community32-tools,
+.work-screen[data-screen="work-messages"] .workmsg29-avatar,
+.work-screen[data-screen="work-menu"] .myocc27-avatar {display:none!important;}
+/* Identical top bar on all five Looking for Work screens. */
+.work-screen .work135-head{
+  position:relative!important;isolation:isolate;z-index:80!important;
+  height:84px!important;min-height:84px!important;
+  margin:0 -18px 17px!important;padding:9px 14px!important;
+  display:grid!important;grid-template-columns:30px minmax(0,1fr) auto!important;
+  gap:10px!important;align-items:center!important;
+  background-color:#001e15!important;
+  background-image:linear-gradient(90deg,rgba(0,19,12,.77) 0%,rgba(0,26,17,.60) 45%,rgba(0,25,16,.55) 67%,rgba(0,18,12,.79) 100%),url('occ-v134-forest-header.webp')!important;
+  background-size:cover!important;background-position:center 42%!important;
+  background-repeat:no-repeat!important;
+  border-top:1px solid rgba(189,236,64,.16)!important;
+  border-bottom:2px solid #a6ce27!important;
+  box-shadow:0 5px 17px rgba(0,0,0,.14), inset 0 -7px 14px rgba(0,18,12,.22)!important;
+  box-sizing:border-box!important;
+}
+.work135-head button{font:inherit;cursor:pointer;touch-action:manipulation}
+.work135-hamburger{border:0!important;background:transparent!important;width:30px!important;height:42px!important;padding:2px!important;color:#c9ef24!important;display:grid!important;place-items:center!important}
+.work135-hamburger svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+.work135-brand{display:flex;align-items:center;min-width:0;gap:8px;overflow:hidden}
+.work135-brand>img{width:51px;height:60px;object-fit:contain;flex:0 0 auto;filter:drop-shadow(0 1px 2px rgba(0,0,0,.5))}
+.work135-brandwords{min-width:0;overflow:hidden}
+.work135-brandwords strong{color:#fff!important;font-size:12.7px!important;line-height:1.04!important;font-weight:850;letter-spacing:-.025em;display:block;text-shadow:0 1px 3px rgba(0,8,3,.9)}
+.work135-brandwords small{display:block;color:#daf071!important;font-size:7.5px!important;font-weight:750;letter-spacing:.025em;line-height:1.2;white-space:nowrap;margin-top:5px;text-shadow:0 1px 2px #00150c}
+.work135-head-actions{display:flex;align-items:center;gap:7px}
+.work135-head-actions>button{background:rgba(0,20,14,.68)!important;border:1.5px solid #caed31!important;color:#d2f02d!important;width:40px!important;height:40px!important;border-radius:50%!important;padding:0!important;display:grid!important;place-items:center!important;position:relative!important;flex:0 0 auto}
+.work135-inbox svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linejoin:round}
+.work135-inbox b{position:absolute;top:-8px;right:-6px;border-radius:100px;width:20px;height:20px;background:#c8ed23;color:#163008;font-size:12px;font-weight:900;display:grid;place-items:center}
+.work135-avatar{font-size:16px!important;font-weight:850!important}
+.work135-head button:focus-visible,.work135-menu button:focus-visible{outline:2px solid #ebff97!important;outline-offset:2px}
+.work135-menu[hidden]{display:none!important}
+.work135-menu{position:fixed!important;top:87px!important;left:50%!important;transform:translateX(-50%)!important;z-index:3000!important;width:min(580px,calc(100vw - 22px))!important;box-sizing:border-box;display:grid!important;gap:5px!important;border:1px solid #80b52e;border-radius:0 0 17px 17px;padding:11px!important;background:#00251b!important;box-shadow:0 20px 30px rgba(0,0,0,.5)!important}
+.work135-menu button{display:flex!important;justify-content:space-between!important;align-items:center!important;min-height:42px;padding:9px 13px!important;border:1px solid #346b42!important;border-radius:10px!important;color:#fff!important;background:#073a29!important;text-align:left;font-size:14px;font-weight:750}
+.work135-menu button span{color:#d2f02d;font-size:20px}
+.work-screen[data-screen="work-home"] .home100-titlebar,
+.work-screen[data-screen="work-jobs"] .jobs99-titlebar,
+.work-screen[data-screen="work-community"] .community32-titlebar,
+.work-screen[data-screen="work-messages"] .workmsg29-hero {padding-top:0!important;}
+.work-screen[data-screen="work-menu"] .myocc27-hero{grid-template-columns:1fr!important;margin-top:0!important;}
+.work-screen[data-screen="work-home"] .home100-titlecopy,
+.work-screen[data-screen="work-jobs"] .jobs99-titlecopy,
+.work-screen[data-screen="work-community"] .community32-titlebar > div:first-child,
+.work-screen[data-screen="work-messages"] .workmsg29-hero > div:first-child {width:100%!important;max-width:100%!important}
+/* Sharpen edges / align mobile cards without impacting widths or event listeners */
+.work-screen[data-screen="work-home"] .work-feature-card,
+.work-screen[data-screen="work-jobs"] .jobs99-job,
+.work-screen[data-screen="work-community"] .community32-intro,
+.work-screen[data-screen="work-messages"] .workmsg29-card,
+.work-screen[data-screen="work-menu"] .myocc27-menu > button {box-shadow:inset 0 1px 0 rgba(195,245,123,.06);}
+@media(max-width:390px){.work-screen .work135-head{gap:6px!important;padding:9px 9px!important}.work135-brand{gap:5px}.work135-brand>img{width:42px;height:53px}.work135-brandwords strong{font-size:11.5px!important}.work135-brandwords small{font-size:6.7px!important}.work135-head-actions{gap:5px}.work135-head-actions>button{width:35px!important;height:35px!important}}
+@media(min-width:520px){.work-screen .work135-head{padding-left:24px!important;padding-right:24px!important;height:89px!important;min-height:89px!important}.work135-brandwords strong{font-size:15px!important}.work135-brandwords small{font-size:9px!important}}
+
+/* All five brand strips start at precisely the same top edge. */
+.work-screen[data-screen="work-menu"]{padding-top:0!important;}

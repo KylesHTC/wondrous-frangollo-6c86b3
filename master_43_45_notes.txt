@@ -1,0 +1,12 @@
+OCC V107 / MASTER 43.45 — PATHWAY NAVIGATION FIX
+
+Root cause fixed:
+- app.js was missing from the previous deployment package.
+- styles.css and manifest.json were also restored to make the package complete.
+- login-hotfix.js remains present.
+
+Result:
+- Sign In works.
+- Choose Your Pathway buttons work again.
+- Existing saved pathway can open directly after sign in.
+- V105 My OCC header/social-media changes are retained.

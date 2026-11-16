@@ -1,0 +1,19 @@
+/* OCC V134 — crisp-image-only polish. Loaded after V133.
+   Same five live screens. No structural changes. */
+[data-screen="partners-funders"] .pf130-header,
+[data-screen="pf-company-offers"] .pf130-header,
+[data-screen="pf-funders"] .pf130-header,
+[data-screen="pf-involved"] .pf130-header,
+[data-screen="profile"].pf131-profile-screen .pf130-header {
+ background-image:
+   linear-gradient(90deg,rgba(0,19,12,.68) 0%,rgba(0,24,15,.59) 40%,rgba(0,26,16,.50) 64%,rgba(0,19,13,.71) 100%),
+   url('occ-v134-forest-header.webp')!important;
+ background-size:cover!important;
+ background-position:center 43%!important;
+}
+/* On high-DPI mobile, maintain normal image smoothing. No pixelated/nearest-neighbour scaling. */
+[data-screen="partners-funders"] img,
+[data-screen="pf-company-offers"] img,
+[data-screen="pf-funders"] img,
+[data-screen="pf-involved"] img,
+[data-screen="profile"].pf131-profile-screen img {image-rendering:auto!important;}

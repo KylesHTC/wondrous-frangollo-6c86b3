@@ -1,0 +1,7 @@
+OCC MASTER 43.47 / V109 — LOCKED FOREST MESSAGES THEME
+
+- Restored the approved OCC forest/tree top layer on Residents & Customers > Messages.
+- Reuses the same community-header-v4332.png visual already used by the approved Residents home theme.
+- Adds RESIDENTS & CUSTOMERS over the existing PEOPLE • PLACES • PROGRESS header area.
+- Keeps all V108 Messages content, cards, filters, navigation and functionality unchanged below the header.
+- Theme is treated as locked: forest header, OCC branding, lime divider/accent, dark green cards and bottom navigation.

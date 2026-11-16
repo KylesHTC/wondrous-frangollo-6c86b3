@@ -1,0 +1,10 @@
+OCC MASTER 43.48 / V110
+Resident My Jobs forest-theme lock.
+
+Changes:
+- Restored the approved full forest/tree OCC header on Residents & Customers > My Jobs.
+- Uses the same OCC / One Community Cleanup brand treatment and People • Places • Progress artwork as the locked Messages theme.
+- Added Residents & Customers pathway label over the forest header.
+- Kept My Jobs content and job cards unchanged, aside from theme-consistent card styling.
+- Added extra bottom clearance so the final job card can scroll above the fixed navigation.
+- Preserved app.js, login-hotfix.js, styles.css and manifest.json from the working V109 package.

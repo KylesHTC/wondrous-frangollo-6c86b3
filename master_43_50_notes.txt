@@ -1,0 +1,9 @@
+OCC V112 / MASTER 43.50 — MY COMMUNITY FINAL
+
+- Rebuilt the Residents & Customers My Community screen to the approved stronger layout and typography.
+- Preserved the real OCC forest header asset and exact OCC logo/branding already used in the app.
+- Preserved all four functions: Funding & Where It Went, Vote in My Community, Projects & Progress, Have Your Say.
+- Preserved existing project totals (9 planned, 14 in progress, 15 completed, 38 all projects) rather than replacing app data with mockup numbers.
+- Preserved the Have Your Say form and localStorage submission behaviour.
+- Community remains highlighted in the resident bottom navigation.
+- No other screens were changed.

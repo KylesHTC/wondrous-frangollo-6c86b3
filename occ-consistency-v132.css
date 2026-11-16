@@ -1,0 +1,65 @@
+/* OCC V132 unified five-page partner chrome. No global changes to the remaining OCC pathways. */
+#mainApp:has(> main > .pf131-profile-screen.active) > .topbar,
+#mainApp:has(> main > .pf131-profile-screen.active) > .context-bar,
+#mainApp:has(> main > .pf131-profile-screen.active) > .bottom-nav,
+#mainApp:has(> main > .pf131-involved-screen.active) > .topbar,
+#mainApp:has(> main > .pf131-involved-screen.active) > .context-bar,
+#mainApp:has(> main > .pf131-involved-screen.active) > .bottom-nav{display:none!important}
+#mainApp:has(> main > .pf131-profile-screen.active) main,
+#mainApp:has(> main > .pf131-involved-screen.active) main{padding:0!important;max-width:none!important}
+/* Identical brand bar and fixed footer on all five primary partner pages. */
+[data-screen="partners-funders"] .pf130-header,
+[data-screen="pf-company-offers"] .pf130-header,
+[data-screen="pf-funders"] .pf130-header,
+[data-screen="pf-involved"] .pf130-header,
+[data-screen="profile"].pf131-profile-screen .pf130-header{
+ min-height:80px!important;height:80px!important;padding:12px 14px!important;
+ background:#002318!important;border-bottom:1px solid rgba(182,220,41,.24)!important;
+ display:grid!important;grid-template-columns:35px minmax(0,1fr) auto!important;align-items:center!important;gap:10px!important;
+ position:relative!important;top:auto!important;z-index:25!important;
+}
+[data-screen="partners-funders"] .pf130-nav,
+[data-screen="pf-company-offers"] .pf130-nav,
+[data-screen="pf-funders"] .pf130-nav,
+[data-screen="pf-involved"] .pf130-nav,
+[data-screen="profile"].pf131-profile-screen .pf130-nav{
+ position:fixed!important;left:50%!important;bottom:0!important;transform:translateX(-50%)!important;
+ width:min(720px,100vw)!important;max-width:720px!important;height:calc(79px + env(safe-area-inset-bottom))!important;
+ display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;
+ background:#001a13!important;z-index:1030!important;padding:7px 4px env(safe-area-inset-bottom)!important;
+ border-top:1px solid #28461e!important;
+}
+[data-screen="pf-company-offers"] .pf129-header,
+[data-screen="pf-funders"] .pf129-header,
+[data-screen="pf-company-offers"] .pfco-nav-wrap,
+[data-screen="pf-funders"] .pff-nav-wrap{display:none!important}
+/* Ensure the two responsive page interiors do not add unnecessary portrait screenshot padding. */
+[data-screen="pf-company-offers"] .pf129-pf-company-offers,
+[data-screen="pf-funders"] .pf129-pf-funders{
+ max-width:720px!important;min-height:unset!important;padding-bottom:calc(94px + env(safe-area-inset-bottom))!important;
+}
+[data-screen="pf-company-offers"] .pfco-shell,
+[data-screen="pf-funders"] .pff-full-shell{
+ width:100%!important;max-width:720px!important;margin:0 auto!important;min-height:100dvh!important;
+ background:#001c13!important;overflow:visible!important;
+}
+/* Responsive front-screen typography: prevent the shared brand title being truncated. */
+[data-screen="partners-funders"] .pf130-brand small,
+[data-screen="pf-company-offers"] .pf130-brand small,
+[data-screen="pf-funders"] .pf130-brand small,
+[data-screen="pf-involved"] .pf130-brand small,
+[data-screen="profile"].pf131-profile-screen .pf130-brand small{
+ white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;
+}
+@media(max-width:390px){
+ [data-screen="partners-funders"] .pf130-header,
+ [data-screen="pf-company-offers"] .pf130-header,
+ [data-screen="pf-funders"] .pf130-header,
+ [data-screen="pf-involved"] .pf130-header,
+ [data-screen="profile"].pf131-profile-screen .pf130-header{gap:6px!important;padding:10px 9px!important}
+ [data-screen="partners-funders"] .pf130-brand img,
+ [data-screen="pf-company-offers"] .pf130-brand img,
+ [data-screen="pf-funders"] .pf130-brand img,
+ [data-screen="pf-involved"] .pf130-brand img,
+ [data-screen="profile"].pf131-profile-screen .pf130-brand img{width:44px!important;height:44px!important}
+}

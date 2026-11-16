@@ -1,0 +1,9 @@
+OCC V111 / MASTER 43.49 — CONTACT & PRIVACY FINAL
+
+- Preserved the approved Residents & Customers Home content: Post a Job, Find a Tradesman, four stats, Quick Access, Support Your Community and Donate to OCC.
+- Replaced the old seven-toggle contact manager with simpler privacy controls:
+  phone toggle, email toggle, one location choice (Full address / Postcode only / Hidden), preferred contact method, best time, optional notes, live privacy summary.
+- Existing saved contact preferences are migrated where possible.
+- Replaced the raised centre + Post Job bottom-nav item with Community across the Residents & Customers pathway.
+- Post a Job remains available from the main Home action card.
+- No other approved Home sections were removed or redesigned.

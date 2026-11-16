@@ -1,0 +1,6 @@
+OCC V116 / MASTER 43.54
+
+- Company Offers & Support screen now uses the approved visual reference exactly.
+- Same OCC logo, forest banner, colours, type hierarchy, four image cards and bottom navigation.
+- Transparent hotspots retain working navigation/actions.
+- No other OCC screens changed from MASTER 43.53.

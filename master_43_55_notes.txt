@@ -1,0 +1,5 @@
+OCC MASTER 43.55 / V117
+- Replaced the legacy Our Funders screen with the user-approved full-screen design.
+- Preserved Company Offers & Support exact screen and all other pages from Master 43.54.
+- Added transparent tap areas for funder filters, funder cards, and the five-item Partners & Funders bottom navigation.
+- No other OCC pages changed.
